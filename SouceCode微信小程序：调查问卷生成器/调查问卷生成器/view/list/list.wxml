@@ -1,0 +1,10 @@
+<!-- weixin markup language -->
+<!-- <text>{{ message }}</text> -->
+<view>
+  <!-- <view class="item" wx:for="{{ list }}">
+    <image src="{{item.images.large}}"></image>
+    <text>{{ item.title }}</text>
+  </view> -->
+  <view>list</view>
+  <view>{{list}}</view>
+</view>

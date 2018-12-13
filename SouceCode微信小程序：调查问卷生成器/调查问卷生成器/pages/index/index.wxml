@@ -1,0 +1,65 @@
+<!--pages/index/Component/FormM/FormM.wxml-->
+
+<view class="viewTitle">
+
+<!-- 方体挂件 -->
+<view class="sk-wandering-cubes">
+    <view class="sk-cube sk-cube1"></view>
+    <view class="sk-cube sk-cube2"></view>
+  </view>
+
+    <text class="view-Name">用户基本信息调查</text>
+    <view class="lineView"></view>
+    
+</view>
+<view class='main-context'>
+
+
+<!--这里用form，name=“nameName1”可以作为form的属性进行
+（e.detail.value.nameName1）调用,
+form自带有提交和重置按钮，会自动获取表单中所有控件值的改变-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+
+<!-- 展示 -->
+     <view class="section section_gap">
+      <view class="section__title" wx:for="{{titles}}" wx:for-index="xxx" wx:for-item="timu">
+      <!-- 关于调查报告文字的css改动 -->
+      <text  class='font-setting'>{{xxx+1}}.{{titles[xxx]}}</text>
+      <!-- timu=titles[xxx] -->
+
+<!-- 输入类题型 -->
+    <block  wx:if="{{titles[xxx][1]=='输'&&titles[xxx][2]=='入'}}">
+    <input class='input' name="{{timu}}"  placeholder="请在这里输入"/>
+    </block>
+
+<!-- 多选类题型 -->
+    <block wx:elif="{{titles[xxx][1]=='多'&&titles[xxx][2]=='选'}}">
+    <checkbox-group name="{{timu}}" >
+        <label wx:for="{{as[xxx]}}"><checkbox value="{{item}}"/>{{item}}</label>
+      </checkbox-group>
+    </block>
+
+<!-- 单选类题型 -->
+    <block wx:elif="{{titles[xxx][1]=='单'&&titles[xxx][2]=='选'}}"> 
+    <radio-group bindchange="bindRadioChange" name="{{timu}}">
+        <label wx:for="{{as[xxx]}}">
+        <!-- for只能放在label里，否则会出现单选变为多选..-->
+            <radio value="{{item}}"/>{{item}}
+        </label>
+    </radio-group>
+    </block>
+    <block wx:else>
+    <label>此题型不能正确显示（不知何种题型）</label>
+    </block>
+    </view>
+     </view>
+
+    <view class="btn-area">
+      <button  class="login" form-type="submit" name="submit">提交</button>
+
+      <button class='item' form-type="reset">重置</button>
+    </view>
+  </form>
+</view>
+
+

@@ -1,0 +1,143 @@
+/* pages/index/Component/FormM/FormM.wxss */
+
+
+.view-Name{
+
+  color: black;
+  font-family: "黑体";
+  font-size: 20px;
+  font-weight: bold;
+}
+.main-context{
+  
+   background:  url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528783278322&di=91130d49a9a0bbbab298b5104f48ec1f&imgtype=0&src=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fitem%2F201204%2F24%2F20120424135453_ULvBY.jpeg')   ;  
+  background-size: cover;
+  color: white;
+
+} 
+.font-setting{
+  font-family: "楷体";
+}
+
+ .btn-area {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+   margin: 20px auto 0px;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    background: rgba(255,255,255,.5);
+    border: 1px solid #fff;
+    color: white;
+    
+    
+} 
+.item {
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 20px auto 20px;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    background:red;
+    color: white;
+    border-radius: 5px;
+}
+
+.input{
+  color: black;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+wx-button {
+  color:black;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+ 
+}
+wx-label {
+  display: block;
+  margin-top: 10rpx;
+}
+.picker-text {
+  margin-left: 20rpx;
+  position: relative;
+}
+.lineView{
+  margin-top: 1px;
+  margin-left: 80px;
+  margin-right: 80px; 
+  height: 1px;
+  background-color: darkred;
+}
+.picker{
+  padding: 26rpx;
+  background-color: #FFFFFF;
+}
+
+
+
+/* 
+小挂件 */
+.sk-wandering-cubes .sk-cube {
+  background-color: #67cf22;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-wanderingCube 1.8s ease-in-out -1.8s infinite both;
+  animation: sk-wanderingCube 1.8s ease-in-out -1.8s infinite both;
+}
+
+.sk-wandering-cubes .sk-cube2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+@-webkit-keyframes sk-wanderingCube {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: translateX(30px) rotate(-90deg) scale(0.5);
+    transform: translateX(30px) rotate(-90deg) scale(0.5);
+  }
+
+  50% {
+    /* Hack to make FF rotate in the right direction */
+    -webkit-transform: translateX(30px) translateY(30px) rotate(-179deg);
+    transform: translateX(30px) translateY(30px) rotate(-179deg);
+  }
+
+  50.1% {
+    -webkit-transform: translateX(30px) translateY(30px) rotate(-180deg);
+    transform: translateX(30px) translateY(30px) rotate(-180deg);
+  }
+
+  75% {
+    -webkit-transform: translateX(0) translateY(30px) rotate(-270deg) scale(0.5);
+    transform: translateX(0) translateY(30px) rotate(-270deg) scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}

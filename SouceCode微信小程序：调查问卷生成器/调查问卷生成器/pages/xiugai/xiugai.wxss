@@ -1,0 +1,51 @@
+/* pages/xiugai/xiugai.wxss */
+
+.context{
+  color: whitesmoke;
+ font-family: "宋体";
+    background: cover;
+  background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529565734894&di=38cb64d1743797971fafb43b96133228&imgtype=0&src=http%3A%2F%2Fww2.sinaimg.cn%2Forj480%2F77bcd64fjw1exdr474qh2j20d02kbdro.jpg") ;
+}
+
+.view-Name{
+  color: black;
+  font-family: "楷体";
+  font-weight: bold;
+  background: transparent
+}
+.text{
+  color:white ;
+  padding-top: 10px;
+  font-size:20px;
+}
+.input{
+  border: 1px solid gray;
+  
+  border-radius: 10px;
+  width: 100%
+}
+.add{
+  width: 80%;  
+  height: auto;  
+  background-color: green;  
+  color: white;
+  margin-top: -10px;  
+  margin-bottom: 2px;  
+  padding-bottom: 0px;  
+  
+}
+.submit{
+  width: 80%;  
+  height: auto;  
+  background-color: red; 
+  color: white; 
+  margin-top: 0px;  
+  margin-bottom: 10px;  
+   
+}
+.input_style{
+  background: transparent;
+  margin: 10px 0px;
+  border-radius: 20px;
+  border: 1px solid white;
+}

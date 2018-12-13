@@ -1,0 +1,11 @@
+<!--pages/xuanzewenjuan/xuanzewenjuan.wxml-->
+
+<view class='context'>
+
+<text class='text'>☟请点击按钮选择下列问卷进行填写☟</text>
+
+<view wx:for="{{titles}}" wx:for-index="xxx">
+<button class='btn' id="{{titles[xxx][1]}}" name="{{titles[xxx][0]}}" bindtap='quedingwenjuan'>进入{{titles[xxx][0]}}问卷</button></view>
+
+ 
+</view>

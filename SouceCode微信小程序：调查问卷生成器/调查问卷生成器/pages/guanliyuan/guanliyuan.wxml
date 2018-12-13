@@ -1,0 +1,29 @@
+<!-- 修改完成 -->
+<view class="login-container">
+<view>
+    <text class='login'>管理员登录</text>
+</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+
+<block>
+<view class="itemView">用户名：
+ <input class="input" name="zhanghao" placeholder="请在这里输入账号" placeholder-class="input-placeholder"/>
+ </view>
+<view class="itemView">密 码：
+ <input class="input" name="mima" placeholder="请在这里输入密码" placeholder-class="input-placeholder" password="true" />
+ </view>
+</block>
+
+<view class='btn'>
+  <button form-type="submit" size="mini" class='login-btn' > 登 录 </button>
+ <button form-type="reset" size="mini" class='reset-btn'> 重 置 </button>
+        <button bindtap='return' size="mini" plain="true" class="back-btn"
+       > 返回上一层 </button>
+</view>
+<view>
+  <label class='label'>{{tishi}}</label>
+</view>
+</form>
+
+</view>
+

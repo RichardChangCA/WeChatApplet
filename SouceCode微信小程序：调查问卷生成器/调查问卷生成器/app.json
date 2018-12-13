@@ -1,0 +1,25 @@
+{
+  "pages":[
+    
+    "pages/choice/choice",
+    "pages/xuanzewenjuan/xuanzewenjuan",
+    "pages/index/index",
+    "pages/guanliyuan/guanliyuan",
+    "pages/control/control",
+    "pages/tijiaohou/tijiaohou",
+    "pages/xiugai/xiugai",
+     "pages/xinjian/xinjian",
+     "pages/xinjian2/xinjian2",
+    "pages/mypage/mypage",
+    "pages/tuijian/tuijian",
+    "pages/xiugaichenggong/xiugaichenggong",
+    "pages/logs/logs",
+    "view/list/list"
+  ],
+  "window":{ 
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "调查问卷",
+    "navigationBarTextStyle":"black"
+  }
+}

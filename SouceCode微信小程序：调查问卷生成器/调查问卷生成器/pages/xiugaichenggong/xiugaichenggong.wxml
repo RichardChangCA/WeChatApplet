@@ -1,0 +1,13 @@
+<!--pages/tijiaohou/tijiaohou.wxml-->
+<!--成功图标-->
+<!-- 修改成功 -->
+<view class='context'>
+<view class='imageCenter'>
+<icon type="success" size="150"/>
+</view>
+<view class="viewTitle">
+    <text  class="view-Name">问卷变更成功!</text>
+</view>
+<button class='btn'  bindtap='goto'>进入调查问卷</button>
+
+</view>

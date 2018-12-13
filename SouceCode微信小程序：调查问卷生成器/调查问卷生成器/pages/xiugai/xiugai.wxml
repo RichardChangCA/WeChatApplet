@@ -1,0 +1,51 @@
+<!-- 已修改 -->
+<!--pages/index/Component/FormM/FormM.wxml-->
+<view class='context'>
+<view class="viewTitle">
+    <text  class="view-Name">❦ 点击问题直接修改问卷 ❦</text>
+    <view class="lineView"></view>
+</view>
+<!--这里用form，name=“nameName1”可以作为form的属性进行
+（e.detail.value.nameName1）调用,
+form自带有提交和重置按钮，会自动获取表单中所有控件值的改变-->
+
+<form bindsubmit="formSubmit">
+
+<!-- 展示 -->
+     <view class="section section_gap">
+      <view class="section__title" wx:for="{{titles}}" wx:for-index="xxx" wx:for-item="timu">
+      <text class='text'>第{{xxx+1}}题:</text>
+      <input class='input' value='{{titles[xxx]}}' name="题目{{xxx}}"></input>
+      <text class='text' >选项：</text>
+    <block>
+        <label class='label' wx:for="{{as[xxx]}}" wx:for-index="xx">
+        <input class='input_style' value='{{item}}' name="题目{{xxx}}选项{{xx}}" placeholder='可修改'></input></label>
+      </block>
+
+    </view>
+    <!-- 新题-->
+    <view class="section__title" wx:for="{{newQues}}" wx:for-index="x">
+    <text class='text'>新增题{{x+1}}:</text>
+    <input class='input' value='' name="新题{{x}}"></input>
+      <text class='text'>选项：</text>
+    <block>
+        <label >
+        <input class='input_style' value='' name="新题{{x}}选项1" placeholder='可修改'></input>
+        <input class='input_style' value='' name="新题{{x}}选项2" placeholder='可修改'></input>
+        <input class='input_style' value='' name="新题{{x}}选项3" placeholder='可修改'></input>
+        <input class='input_style' value='' name="新题{{x}}选项4" placeholder='可修改' ></input>
+        <input class='input_style' value='' name="新题{{x}}选项5" placeholder='可修改'></input>
+        <input class='input_style' value='' name="新题{{x}}选项6" placeholder='可修改'></input>
+        <input class='input_style' value='' name="新题{{x}}选项7" placeholder='可修改'></input>
+        <input class='input_style' value='' name="新题{{x}}选项8" placeholder='可修改'></input></label>
+      </block>
+
+   
+    </view>
+    </view>
+    <view class="btn-area">
+    <button class='add' bindtap='tianjia'>添加新问题</button>
+      <button class='submit' form-type="submit" name="submit">Submit提交</button>
+    </view>
+  </form>
+  </view>

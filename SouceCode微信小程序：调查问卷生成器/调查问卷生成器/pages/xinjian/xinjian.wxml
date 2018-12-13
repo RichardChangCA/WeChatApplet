@@ -1,0 +1,17 @@
+
+<!--pages/index/Component/FormM/FormM.wxml-->
+<view class='context'>
+<view class="viewTitle">
+    <text class="view-Name">新建问卷</text>
+    <view class="lineView"></view>
+</view>
+<!--这里用form，name=“nameName1”可以作为form的属性进行
+（e.detail.value.nameName1）调用,
+form自带有提交和重置按钮，会自动获取表单中所有控件值的改变-->
+<block>
+<label class='label'>输入要添加的问题个数:<input class='input' bindinput='numberInput' placeholder="请输入数字"/></label>
+  
+<button class='btn' bindtap='queren'>确认</button>
+</block>
+
+</view>

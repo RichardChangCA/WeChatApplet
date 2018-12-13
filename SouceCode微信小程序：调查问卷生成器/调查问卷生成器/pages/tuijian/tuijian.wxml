@@ -1,0 +1,59 @@
+<!--pages/tuijian/tuijian.wxml-->
+<view class='context'>
+<text class='text'>ღ您是第{{a+1}}类用户 向您推荐:</text>
+
+<!-- 第一类 -->
+<block wx:if="{{a==0}}">
+<view wx:for="{{one}}" wx:for-index="xxx">
+ <image class='img'  src="{{one[xxx].url}}"></image>
+<text class='lianjie' selectable='ture'>
+<text class='tuijian' > ▷{{one[xxx].message}}</text>
+▶链接：{{one[xxx].shangpinurl}}</text> 
+</view>
+</block>
+<!-- 第二类 -->
+ <block wx:if="{{a==1}}"> 
+<view wx:for="{{two}}" wx:for-index="xxx">
+ <image class='img'  src="{{two[xxx].url}}"></image>
+
+
+<text class='lianjie' selectable='ture'>
+ <text class='tuijian'>▷{{two[xxx].message}}</text>
+ ▶链接： {{two[xxx].shangpinurl}}</text>
+</view>
+ </block> 
+<!-- 第三类 -->
+ <block wx:if="{{a==2}}">
+<view wx:for="{{three}}" wx:for-index="xxx">
+ <image class='img'  src="{{three[xxx].url}}"></image>
+ 
+
+<text class='lianjie' selectable='ture'>
+<text class='tuijian'>▷{{three[xxx].message}}</text>
+▶链接： {{three[xxx].shangpinurl}}</text>
+</view>
+</block>
+<!-- 第四类 -->
+ <block wx:if="{{a==3}}">
+<view class='style' wx:for="{{four}}" wx:for-index="xxx">
+    
+ <image class='img'  src="{{four[xxx].url}}"></image>
+<text class='lianjie' selectable='ture'>
+ <text class='tuijian'>▷{{four[xxx].message}}</text>
+▶ 链接：{{four[xxx].shangpinurl}}</text>
+</view>
+</block> 
+<!-- 第五类 -->
+ <block wx:if="{{a==4}}">
+<view wx:for="{{five}}" wx:for-index="xxx">
+    
+ <image class='img'  src="{{five[xxx].url}}"></image>
+
+<text class='lianjie' selectable='ture'>
+ <text class='tuijian'>▷{{five[xxx].message}}</text>
+ ▶ 链接：{{five[xxx].shangpinurl}}</text>
+</view>
+</block>
+<view>
+</view> 
+</view>

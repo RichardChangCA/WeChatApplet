@@ -1,0 +1,12 @@
+<!--pages/tijiaohou/tijiaohou.wxml-->
+<!--成功图标-->
+<view class='context'>
+<view class='imageCenter'>
+<icon type="success" size="150"/>
+</view>
+<view class="viewTitle">
+    <text class='text'>提交成功!</text>
+    <button class='btn' bindtap='goto'>返回其他问卷</button>
+    <button class='btn' bindtap='tuijian'>点击查看向您推荐的商品</button>
+</view>
+</view>

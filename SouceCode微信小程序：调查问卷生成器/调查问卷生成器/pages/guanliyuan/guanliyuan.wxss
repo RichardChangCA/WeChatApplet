@@ -1,0 +1,72 @@
+page{
+    width:100%;  
+  height:100%;  
+  overflow: hidden; 
+}
+.login-container {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background:  url(' https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529571017649&di=210f4fd9a97409db836dd0549cf0aa7b&imgtype=0&src=http%3A%2F%2Fimg5q.duitang.com%2Fuploads%2Fitem%2F201112%2F15%2F20111215182913_FynaA.thumb.700_0.jpg') ;
+ 
+} 
+ 
+
+.login{
+  font-family: "黑体";
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+.itemView{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.input {
+  border-radius: 40px;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  padding: 0 10px;
+  line-height: 30px;
+  height: 30px;
+  margin: 20px 0;
+}
+
+.input-placeholder {
+  color: #aaa!important;
+}
+
+.login-btn {
+  margin: 5px 0;
+  border: 1px solid #ccc!important;
+  color: white !important;
+  background: green;
+  width: 100%;
+  border-radius: 0px;
+}
+.reset-btn{
+    margin: 5px 0;
+  border: 1px solid #ccc!important;
+  color: white !important;
+  background: red;
+  width: 100%;
+  border-radius: 0px;
+}
+.back-btn{
+    margin: 5px 0;
+  border: 1px solid #ccc!important;
+  color: #777 !important;
+ 
+  width: 100%;
+  border-radius: 0px;
+}
+
+.btn-hover {
+  background-color: #eee!important;
+}
+.label{
+  font-family: '黑体';
+  padding-top: 20px;
+  
+}

@@ -1,0 +1,55 @@
+/* pages/tuijian/tuijian.wxss */
+
+.context {
+ 
+ 
+  background-size: cover;
+    background:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529640335495&di=682443498ac581fb886c88ef5735d2de&imgtype=0&src=http%3A%2F%2Fimg5q.duitang.com%2Fuploads%2Fitem%2F201505%2F21%2F20150521194909_3hjC4.jpeg');
+       
+}
+
+.text{
+  font-size: 20px;
+  font-family: "楷体";
+ margin-left: 20px;
+  color: white
+}
+
+.img{
+
+margin: 10px;
+position: relative;
+right: 10px;
+width: 99%;
+
+}
+
+.tuijian{
+  color: white;
+  font-size: 16px;
+  font-family: "楷体";
+  margin: 10px 0px;
+  background: transparent;
+  
+}
+
+.lianjie{
+  
+  color: red;
+  font-size: 14px;
+  font-family: "黑体";
+    
+    padding: 10px;
+   
+  background: transparent;
+  margin:10 0px;
+  word-break:break-all; 
+}
+
+.style{
+  border: 1px solid white;
+  margin:10px;
+  
+ 
+ 
+}

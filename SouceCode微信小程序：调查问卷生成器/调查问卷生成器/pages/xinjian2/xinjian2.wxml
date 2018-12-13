@@ -1,0 +1,35 @@
+
+
+<view class='context'>
+<form bindsubmit="formSubmit">
+
+<!-- 展示 -->
+     <view class="section section_gap">
+      
+    <!-- 新题-->
+    <view class="section__title" wx:for="{{newQues}}" wx:for-index="x">
+    <text class='text'>题目{{x+1}}:</text><input class='input' value='' name="题目{{x}}"></input>
+      <text class='text'>选项：</text>
+    <block>
+        <label>
+        <input class='input' value='' name="题目{{x}}选项1"></input>
+        <input class='input' value='' name="题目{{x}}选项2"></input>
+        <input class='input' value='' name="题目{{x}}选项3"></input>
+        <input  class='input' value='' name="题目{{x}}选项4"></input>
+        <input class='input' value='' name="题目{{x}}选项5"></input>
+        <input class='input' value='' name="题目{{x}}选项6"></input>
+        <input class='input' value='' name="题目{{x}}选项7"></input>
+        <input class='input' value='' name="题目{{x}}选项8"></input></label>
+      </block>
+
+   
+    </view>
+    </view>
+  
+    <view class="btn-area">
+      <button class='tianjia' bindtap='tianjia'>添加新问题</button>
+      <button class='tijiao' form-type="submit" name="submit">Submit提交</button>
+    </view>
+  </form>
+
+  </view>

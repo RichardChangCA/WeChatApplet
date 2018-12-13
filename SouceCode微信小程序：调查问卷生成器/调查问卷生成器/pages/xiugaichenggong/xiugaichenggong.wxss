@@ -1,0 +1,26 @@
+/* pages/xiugaichenggong/xiugaichenggong.wxss */
+page{  
+  width:100%;  
+  height:100%;  
+  overflow: hidden;  
+}
+.context {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+    background:url('https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1529564040&di=2b46c5a4a70ef5aa76beb39aaf693dde&src=http://img3.duitang.com/uploads/item/201509/14/20150914194053_WxCQv.jpeg');
+       
+}
+
+.view-Name{
+  font-family: "黑体";
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.btn{
+  width: 50%;
+  margin: 40px auto;
+  background: transparent;
+  border: 1px solid white;
+}

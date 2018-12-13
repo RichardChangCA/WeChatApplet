@@ -1,0 +1,26 @@
+<!-- 修改完成 -->
+<!--pages/control/control.wxml-->
+<view class='main_context' >
+
+<view class='item'> 
+<image src="/images/guanli.png" class='icon'></image>
+<text class='text'>欢迎管理员：{{name}}
+</text>
+</view>
+
+<view class='login_picture'>
+<image src='/images/face_picture.jpg' class='image'></image>
+ </view>
+
+
+
+
+<view class='button_style'>
+<button class='xinjian'  bindtap='xinjianwenjuan'>新建问卷</button>
+<button class='xiugai'  bindtap='xiugaiwenjuan'>修改问卷</button>
+<button class='tuichu' bindtap='tuichu'>退出登录</button>
+</view>
+
+
+
+</view>

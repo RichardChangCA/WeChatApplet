@@ -1,0 +1,21 @@
+<!-- 修改完成 -->
+<view class='container'>
+
+<image src="/images/picture.jpg" class="avatar"> </image>
+
+<view class="btn-area">
+
+<view bindtap='jinru'>
+    <button class='enter' >进入调查问卷</button>
+</view>
+
+<view class='item' bindtap='denglu' >
+ <image src="/images/bar_mine.png" class="icon"></image>
+ <text class='login'>管理员登录</text>
+</view>
+
+
+
+  </view>
+</view>
+  

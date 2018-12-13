@@ -1,0 +1,37 @@
+.context{
+  color: whitesmoke;
+ font-family: "宋体";
+    background: cover;
+  background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529565734894&di=38cb64d1743797971fafb43b96133228&imgtype=0&src=http%3A%2F%2Fww2.sinaimg.cn%2Forj480%2F77bcd64fjw1exdr474qh2j20d02kbdro.jpg") ;
+
+}
+
+
+.btn-area{
+  width: 40%;
+ margin: 0 auto;
+ padding: 40px 0;
+
+}
+.tianjia{
+  background: transparent;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+.tijiao{
+  background: transparent;
+  border: 1px solid white;
+
+}
+.text{
+  color:white ;
+  padding-top: 10px;
+  font-size:20px;
+}
+.input{
+  margin-bottom: 10px;
+  border: 1px solid white;
+  
+  border-radius: 10px;
+  width: 100%
+}

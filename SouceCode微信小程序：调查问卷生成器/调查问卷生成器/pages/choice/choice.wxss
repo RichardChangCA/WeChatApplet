@@ -1,0 +1,71 @@
+
+
+
+
+.container {
+ 
+  background-size: cover;
+    background:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529556796506&di=f107783e920738e311649bec1191032e&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fitbbs%2F1407%2F26%2Fc24%2F36736617_1406382373258_mthumb.jpg');
+       
+}
+.avatar {
+      width: 100px;
+          height: 100px;
+              border-radius: 50%;
+                  margin-top: 40px;
+}
+
+   
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.section {
+    margin: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.item {
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 20px auto 0;
+    padding: 5px 15px;
+    width: 130px;
+    height: 36px;
+    line-height: 36px;
+    background: rgba(255,255,255,.5);
+    display: flex;
+    border-radius: 5px;
+ 
+}
+.icon {
+    width: 25px;
+    height: 25px;
+}
+.login {
+    line-height: 25px;
+    margin-left: 5px;
+    
+}
+.tuijian {
+    line-height: 25px;
+    margin-left: 5px;
+}
+
+.enter {
+    width: 130px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+}
+
+
